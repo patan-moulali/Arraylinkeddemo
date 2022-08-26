@@ -12,8 +12,8 @@ namespace Arraylinkeddemo
         static void Main(string[] args)
         {
             int[,] arr = { { 1, 2, 3 }, { 100, 200, 300 }, { 1000, 2000, 3000 } };
-            int len  = arr.GetLength(0);
-            Console.WriteLine(len);
+            //int len  = arr.GetLength(0);
+            //Console.WriteLine(len);
 
             for(int i = 0 ; i < arr.GetLength(0); i++)
             {
